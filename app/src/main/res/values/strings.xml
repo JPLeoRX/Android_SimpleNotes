@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Simple Notes</string>
+    <string name="app_motto">Taking notes - as easy as it can be</string>
+    <string name="app_desc">Add, edit, delete notes\nChange text size for each note\nSearch notes by title\nSort notes by title and date\nPreview notes safely</string>
+    <string name="app_author">© TekLeo</string>
+
+    <string name="button_search">Search</string>
+    <string name="button_sort">Sort</string>
+    <string name="button_add">Add</string>
+    <string name="button_save">Save</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_exit">Exit</string>
+    <string name="textview_search">Search by title</string>
+    <string name="textview_title">Title</string>
+    <string name="textview_text">Enter your note text here</string>
+    <string name="button_sortAZ">Title A-Z</string>
+    <string name="button_sortZA">Title Z-A</string>
+    <string name="button_sortNew">New first</string>
+    <string name="button_sortOld">Old first</string>
+    <string name="textview_sort">Sort by</string>
+    <string name="textview_closeWarning">Exit without saving?</string>
+    <string name="textview_settings">Note Settings</string>
+    <string name="textview_titleSize">Title Size</string>
+    <string name="textview_textSize">Text Size</string>
+
+    <string name="menuButton_delete">Delete</string>
+    <string name="menuButton_settings">Settings</string>
+    <string name="menuButton_edit">Edit</string>
+</resources>

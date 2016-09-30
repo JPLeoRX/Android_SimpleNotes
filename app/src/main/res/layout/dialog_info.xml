@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp" android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:padding="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_border"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:id="@+id/txtAppName"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_motto"
+            android:id="@+id/txtAppMotto"
+            android:layout_below="@+id/txtAppName"
+            android:layout_centerHorizontal="true"
+            android:textSize="16dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_author"
+            android:id="@+id/txtAppAuthor"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_below="@+id/txtAppDescriprion"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_desc"
+            android:id="@+id/txtAppDescriprion"
+            android:textStyle="normal"
+            android:textColor="@color/colorBlack"
+            android:layout_below="@+id/txtAppMotto"
+            android:singleLine="false"
+
+            android:textSize="14dp"
+            android:layout_alignParentLeft="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+    </RelativeLayout>
+</RelativeLayout>

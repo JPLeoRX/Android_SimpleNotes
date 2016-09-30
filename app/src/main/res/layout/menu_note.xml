@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:padding="2dp">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_border"
+        android:showDividers="middle"
+        android:divider="@drawable/radio_button_divider">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:id="@+id/menuBtnEdit"
+            android:layout_margin="4dp">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="@string/menuButton_settings"
+                android:id="@+id/menuBtnEdit_image"
+                android:background="@color/colorTransparent"
+                android:textColor="@color/colorWhite"
+                android:layout_margin="4dp"
+                android:src="@drawable/btn_notes_edit"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuButton_edit"
+                android:id="@+id/menuBtnEdit_text"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_marginRight="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/menuBtnSettings"
+            android:background="@drawable/background"
+            android:layout_margin="4dp">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/menuBtnSettings_image"
+                android:src="@drawable/btn_notes_settings"
+                android:scaleType="fitCenter"
+                android:background="@color/colorTransparent"
+                android:layout_margin="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuButton_settings"
+                android:id="@+id/menuBtnSettings_text"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_marginRight="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/menuBtnDelete"
+            android:background="@drawable/background"
+            android:layout_margin="4dp">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="@string/menuButton_delete"
+                android:id="@+id/menuBtnDelete_image"
+                android:background="@color/colorTransparent"
+                android:textColor="@color/colorWhite"
+                android:layout_margin="4dp"
+                android:src="@drawable/btn_notes_remove"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuButton_delete"
+                android:id="@+id/menuBtnDelete_text"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_marginRight="12dp" />
+        </LinearLayout>
+
+    </RadioGroup>
+
+</RelativeLayout>
